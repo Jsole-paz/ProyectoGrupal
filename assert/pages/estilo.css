@@ -1,11 +1,44 @@
 body{
-    background-color: bisque;
+    background: #8360c3;  
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3); 
+    background: linear-gradient(to right, #2ebf91, #8360c3); 
     border: 5px solid blue;
 }
-
-header{
-    background-color: bisque;
+header {
     border: 5px solid red;
+    width: 100%;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #887c83;
+  }
+dt {
+    background-color: #cf1783;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
 }
 
 footer{
