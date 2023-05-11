@@ -3,6 +3,7 @@
     flex-flow: row wrap;
     font-weight: bold;
     text-align: center; 
+    font-family: 'DM Serif Display', serif;
   }
   
   .wrapper > * {
@@ -19,22 +20,29 @@
   
   nav ul li {
     float: left;
-    font-family: Arial, sans-serif;
     font-size: 16px;
+    font-family: 'DM Serif Display', serif;
   }
   nav ul li a {
     display: block;
     padding: 10px;
     color: #000000;
     text-decoration: none;
+    font-family: 'DM Serif Display', serif;
   }
   nav ul li:hover {
     background: #887c83;
+    border-radius: 15px
   }
   .header {
     margin-bottom: 50px;
+    font-family: 'DM Serif Display', serif;
   }
-
+  .spotify{
+    float: right;
+    align-items: right;
+    margin-top: 85px;
+  }
   .logo {
     float: right;
     margin-top: -85px;
@@ -51,21 +59,35 @@ dt {
     position: sticky;
     border: 2px solid black;
     text-align-last: center;
-}
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: 'DM Serif Display', serif;
+    }
   .footer {
     background: lightgreen;
   }
-  
+  .bloque {
+    align-items: center;
+
+    justify-content: center;
+    height: 400px; 
+    width: 700px;
+    background-color: red;
+    text-align: middle;
+}
+
+
   .main {
-    text-align: left;
-    background: deepskyblue;
+    text-align: middle;
+    vertical-align: middle;
+    
+
+
   }
   
-  .aside-1 {
-    background: gold;
-  }
   
   .aside-2 {
+    align: right;
   }
   
   @media all and (min-width: 600px) {

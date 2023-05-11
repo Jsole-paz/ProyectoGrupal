@@ -19,7 +19,6 @@
   
   nav ul li {
     float: left;
-    font-family: Arial, sans-serif;
     font-size: 16px;
   }
   nav ul li a {
@@ -30,6 +29,7 @@
   }
   nav ul li:hover {
     background: #887c83;
+    border-radius: 15px
   }
   .header {
   }
