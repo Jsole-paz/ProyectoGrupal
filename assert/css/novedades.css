@@ -57,9 +57,21 @@ dt {
     margin-top: -30px;
 }
   .footer {
-    background: lightgreen;
     font-family: 'DM Serif Display', serif;
   }
+  .dt-2 {
+    background: #8360c3;  
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3); 
+    background: linear-gradient(to right, #2ebf91, #8360c3); 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    position: sticky;
+    border: 2px solid black;
+    text-align-last: center;
+    font-family: 'DM Serif Display', serif;
+    border-radius: 15px;
+    margin-top: -30px;
+}
   
   .main {
     text-align: left;
@@ -74,7 +86,19 @@ dt {
                 -1px  0px 0px black,
                  0px -1px 0px black;
   }
-    
+  .main-footer{
+    float: left;
+    align-items: left;
+    align:left;
+    margin-top: 15px;
+  }
+  .aside-2-footer{
+    float: right;
+    align:right;
+    vertical-align: end;
+    align-items: baseline;
+    margin-top: 92px;
+  }  
   
   .aside-2 {
   }
