@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="./css/contacto.css">
     <link rel="shortcut icon" href="../media/imagenes/logo3.gif"/>
     <title>SONASTE</title>
 </head>
 <body>
+  <header class="df-navbar">
     <div class="wrapper">
         <header class="header">
-          <picture> 
-            <source srcset= "hidden" media="(max-width:700px)">
-            <img src="logo4.png" alt="logo" width="350px" class="logo">  
-          </picture>
+          <div class="logo">
+          <img src="./imagen/logo4.png" alt="logo" width="200px" class="logo">  
+          </div>
           <nav>
               <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="musica.html">Musica</a></li>
-                <li><a href="novedades.html">Novedades</a></l>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./musica.html">Musica</a></li>
+                <li><a href="./novedades.html">Novedades</a></l>
+                <li><a href="./contacto.html">Contacto</a></li>
               </ul>
           </nav>
         </header>
-     
+     </div>
+     <main class="container-fluid">
+      <div class="section1">
      <h2>Acerca de nosotros</h2>
       <P>
     Con MUSIC-HIT estaras a gusto y podras encontrar la música o el podcast perfectos para cada momento desde tu notebook, telefono, computadora, tablet y muchos otros dispositivos.
@@ -35,12 +37,17 @@ Además, puedes explorar las colecciones de tus amigos, de artistas y celebridad
 
 Ponle música a tu vida con MUSIC-HIT. Suscríbete o escucha música gratis.
       </P>
+      </div>
+      <div class="section2">
 <h2>Servicio de ayuda y atención al cliente</h2>
   <p> Visita nuestro sitio de ayuda para resolver tus dudas y aprender cómo aprovechar al máximo el servicio de MUSIC-HIT y tu música.
  Obtén ayuda rápida de los usuarios expertos de MUSIC-HIT. Si todavía no hay una respuesta a tu pregunta, publícala y alguien te responderá a la brevedad. También puedes sugerir y votar por nuevas ideas para MUSIC-HIT o, simplemente, hablar sobre música con otros fans.
 Comunícate con nosotros. Comunícate con nuestro equipo de atención al cliente si no encuentras una solución en nuestro sitio de ayuda o en la Comunidad.
       </P>
-    <form class="fila g-3">
+      </div>
+      <br>
+      <div class="section3">
+    <form class="containerfor">
         <div class="col-md-4">
           <label for="validationServer01" class="form-label">Nombres</label>
           <input type="text" class="form-control is-valid" id="validationServer01" value= "*" required>
@@ -102,28 +109,21 @@ Comunícate con nosotros. Comunícate con nuestro equipo de atención al cliente
         <div class="col-12">
           <button class="btn btn-primary" type="submit">Enviar Formulario</button>
         </div>
+      </div>
       </form>
-      <footer class="footer">
-        <article class="main-footer">
-          <dl><dt>
-            <center><p class="dt-2">Suscripción al newsletter</p></center>
-            <section>
-              <form action="#" method="GET">
-              <div>
-                <label for="email">Correo electrónico</label>
-                <input type="email" name="email" id="email">
-              </div>
-              <input type="checkbox" name="acepto" id="acepto">Aceptar terminos y condiciones
-              <br>
-              <input type="submit" value="Recibir noticias">
-            </form>
-            </section>
-          </dt></dl>
-      </article>
-      <aside class="aside aside-2-footer">
-          <dl><dt>sonaste@musica.com</dt></dl>
-      </aside>
-      </footer>
-    </div> 
+      </main>
+      <footer class="df-footer bg-footer">
+        <h5 class="text">Hecho con ✌🤞 por Equipo Nro 6 .</h5>
+        <div class="contac">
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/220708701e.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 </html>
