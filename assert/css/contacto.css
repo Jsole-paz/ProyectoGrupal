@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -65,9 +65,11 @@ nav ul li:hover {
   padding: 0%;
   text-align: center;
 }
-
-logo {
-  grid-area: logo;
+.logo{
+  float: right;
+  margin-top: -40px;
+  margin-right: -20px;
+  margin-bottom: -180px;
 }
 
 header {
@@ -83,6 +85,7 @@ header {
 
 .section2 {
   grid-area: section2;
+  text-align: center;
 }
 
 .section3 {
