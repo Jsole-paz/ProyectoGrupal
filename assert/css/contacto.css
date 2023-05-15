@@ -135,8 +135,6 @@ header {
   transform: scale(2);
   transition: all 1s ease;
 }
-.section3:hover {
-  transform: scale(2,1)}
 
 .header-logo img:hover {
   transform: rotate(50deg);
@@ -221,3 +219,5 @@ body {
       margin-top: -270px;
   }
 }
+
+
