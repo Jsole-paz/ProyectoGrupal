@@ -45,10 +45,9 @@
   }
   .logo{
     float: right;
-    margin-top: -85px;
-    margin-left: 250px;
-    margin-right: -15px;
-    margin-bottom: -230px;
+    margin-top: -40px;
+    margin-right: -20px;
+    margin-bottom: -180px;
   }
 
 dt {
@@ -84,12 +83,12 @@ dt {
   .main-footer{
     float: left;
     align-items: left;
-    align:left;
+    box-align:left;
     margin-top: 15px;
   }
   .aside-2-footer{
     float: right;
-    align:right;
+    box-align:right;
     vertical-align: end;
     align-items: baseline;
     margin-top: 113px;
@@ -109,14 +108,11 @@ dt {
   .main {
     text-align: middle;
     vertical-align: middle;
-    
-
-
   }
   
   
   .aside-2 {
-    align: right;
+    box-align: right;
   }
   
   @media all and (min-width: 600px) {
