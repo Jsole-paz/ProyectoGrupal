@@ -147,14 +147,6 @@ nav:hover {
   transition: all 1s ease;
 }
 
-.section1:hover {
-  transform: translate(20px, 20px);
-}
-
-.section2:hover {
-  transform: translate(20px, 20px);
-}
-
 body {
   width: 90%;
   background: #8360c3;
