@@ -78,8 +78,7 @@ dt {
     font-family: 'DM Serif Display', serif;
   }
   
-  .aside-1 {
-  }
+  
   .texto{color: pink;
     text-shadow: 1px  0px 0px black,
                  0px  1px 0px black,
@@ -89,21 +88,18 @@ dt {
   .main-footer{
     float: left;
     align-items: left;
-    align:left;
+    box-align:left;
     margin-top: 15px;
   }
   .aside-2-footer{
     float: right;
-    align:right;
+    box-align:right;
     vertical-align: end;
     align-items: baseline;
     margin-top: 92px;
   }  
   
-  .aside-2 {
-  }
 
-  
   @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }
   }
