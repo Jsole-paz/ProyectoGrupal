@@ -43,11 +43,13 @@
     align-items: right;
     margin-top: 85px;
   }
-  .logo{
+
+  .logo {
     float: right;
-    margin-top: -40px;
-    margin-right: -20px;
-    margin-bottom: -180px;
+    margin-top: -85px;
+    margin-left: 250px;
+    margin-right: -15px;
+    margin-bottom: -230px;
   }
 
 dt {
